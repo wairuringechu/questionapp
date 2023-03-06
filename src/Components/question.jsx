@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import './question.css';
 
 //initiaizing the state variable using useState hook
 function App() {
@@ -13,7 +14,7 @@ function App() {
     <div id="container">
         <form>
             <input type="text" value="questionarea"/>
-            <button type="submit">submitquestion</button>
+            <input type="submit" value ="submitquestion"/>
             <button type="delete">deletequestion</button>
             <button type="edit">editQuestion</button>
         </form>
@@ -83,8 +84,9 @@ function App() {
     } 
     .catch((error) => {
         console.error(error);
-        })
-        }, []);
+        });
+        } []
+        
     
     // Handle edit question
     const handleEditQuestion = async (event) => {

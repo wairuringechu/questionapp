@@ -1,8 +1,8 @@
 import logo from './logo.svg';
-import './question.css';
+import './question.';
 import React from 'react';
 import QuestionList from './QuestionList';
-import AskQuestionForm from './AskQuestionForm';
+import AskQuestion from './AskQuestion';
 
 function App() {
   return (
