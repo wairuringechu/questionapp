@@ -1,18 +1,14 @@
-import logo from './logo.svg';
-import './question.';
 import React from 'react';
-import QuestionList from './QuestionList';
 import AskQuestion from './AskQuestion';
+import './question.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>My Question App</h1>
-      <SignInForm />
-      <QuestionList />
-      <AskQuestionForm />
-    </div>
-  )
+      <div className="App">
+        <h1>Question App</h1>
+        <QuestionForm/>
+      </div>
+    );
 }
 
 export default App;
